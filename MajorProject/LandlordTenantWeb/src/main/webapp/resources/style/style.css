@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../font/OpenSans-Regular-webfont.eot');
+    src: url('../font/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../font/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../font/OpenSans-Light-webfont.eot');
+    src: url('../font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-Light-webfont.woff') format('woff'),
+         url('../font/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../font/Roboto-Regular-webfont.eot');
+    src: url('../font/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Roboto-Regular-webfont.woff') format('woff'),
+         url('../font/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../font/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../font/OpenSans-Bold-webfont.eot');
+    src: url('../font/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../font/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{ margin:0px; font-family: 'open_sansregular'; }
+a { text-decoration:none; font-family: 'open_sansregular'; color:#424242; }
+ul {padding:0px; font-family: 'open_sansregular'; }
+ul.breadcrumb { padding: 8px 16px; list-style: none; background-color: white; margin:0;}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {padding: 8px; color: black; content: "\00a0";}
+ul.breadcrumb li a {color: black;}
+p{font-family: 'open_sansregular';}
+label {font-family: 'open_sansregular';}
+.header-wraper{width:100%; float:left; background-color:#eeeeee; padding:10px 0px;}
+.logo-main{width:25%; float:left;}
+.logo-main img{float:left;}
+.logo-main p{float:left; font-size:24px; margin:0px; margin-left:10px; line-height:88px; font-weight:bold;}
+.menu-main{width:75%; float:right; line-height:88px;}
+.menu-main ul {overflow:auto; margin:0;}
+.menuright {float: right !important;}
+.menucenter {float: center !important;}
+.menu-main ul li{ float:left; list-style:none; margin:0px 20px;}
+.login-table{ width:50%; overflow:auto; margin:50px auto; background-color:#eeeeee; padding:50px;}
+.inner-logintable{width:400px; overflow:auto; margin:0 auto; background-color:#eeeeee;}
+.login-form{overflow: auto; width: 100%;}
+.text-form{ width:100%; font-size:16px; margin:5px 0px; padding:5px 0px; border:0px; outline:0px; text-indent:5px; border-radius:5px;}
+.button-form{ background-color:#787878; font-size:16px; padding:10px; width:100px; color:#ffffff;}
+.inner-logintable a { margin-left:20px; color:#a4a4a4;}
+.form-listing, #frmRegister, #frmMaintenance, #frmRating {width:100%; overflow:auto;}
+.inner-listform, .inner-regform{ width:500px; overflow:auto; margin:0 auto; background-color:#eeeeee; padding:10px;}
+.inner-list{width:600px;  overflow:auto; margin:0 auto; background-color:#eeeeee; padding:4px;}
+.all-lable {float:left; font-size:24px; margin:0px;}
+.inner-leaseform p, .all-submit, .all-combobox, .all-textbox{ float:right; font-size:20px; margin:5px 0; width:300px;}
+.dash-screen{margin:20px 0px; overflow:auto; margin:0 auto; width:400px;}
+.hello-head{ color:#838383;}
+.dashboard-list li{width:90%; border: 1px solid #838383; background-color:#eeeeee; list-style:none; font-weight:300;}
+.inner-viewlisting{width:100%; overflow:auto; margin:20px 0px; }
+.listing-tablecell tr th {text-align:center; padding:10px; background-color:#eeeeee;}
+.listing-tablecell tr td { padding:10px 5px; border:2px solid #eeeeee; text-align:left;}
+.listing-tablecell tr td img {width:100%;}
+.viewlist-button{border:1px solid #474747; text-align:center;}
+.go-backdiv{width:100%; overflow:auto; width:302px; margin:0 auto;}
+.inner-leaseform{width:600px; overflow:auto; margin:20px auto; background-color:#eeeeee; padding:10px;}
+.hidden { display: none; }
+.error{color:red;}
